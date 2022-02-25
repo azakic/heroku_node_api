@@ -10,13 +10,13 @@ const User = mongoose.model('user', new mongoose.Schema({
     }, 
     phone: {
         type: String,
-        minlength: 10,
+        minlength: 7,
         maxlength: 10,
         required: true
     }, 
     address: {
         type: String,
-        minlength: 10,
+        minlength: 7,
         maxlength: 50,
         required: false
     }
